@@ -13,7 +13,7 @@ export default function Home() {
 			<Grid placeItems={"center"} mt={200} gap={10}>
 				<Link href="/form">Form</Link>
 				<Link href="/table">Table</Link>
-				<Link href="/page3">Page3</Link>
+				<Link href="/direct-debit">口座振替</Link>
 			</Grid>
 		</>
 	);
