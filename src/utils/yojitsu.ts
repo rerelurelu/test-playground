@@ -4,7 +4,7 @@ import {
   PatientSeikyuStatus,
   YojitsuOutputStatus,
   YojitsuStatus,
-} from '@/common/types/Schema'
+} from '@/types/Schema'
 
 export const toYojitsuStatusLabel = (value: YojitsuStatus) => {
   switch (value) {

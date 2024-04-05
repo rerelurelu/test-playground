@@ -48,17 +48,15 @@ import { StatusMessage } from "@/components/elements/StatusMessage";
 import { TextButton } from "@/components/elements/TextButton";
 import { useDirectDebit } from "@/hooks/useDirectDebit";
 import { useToast } from "@/hooks/useToast";
-import { useWebStorage } from "@/hooks/useWebStorage";
 import type { ServerMessage } from "@/types/ErrorMessage";
 import type { RegexWithLabel, TargetDirectDebit } from "@/types/directDebit";
 import { ToJapaneseFormatString } from "@/utils/JapaneseEra";
 import { SCROLL_TO, charGroupRegexes, queryParamKeys } from "@/utils/constans";
-import { toInitialDate } from "@/utils/date";
 import { getIsResultFileStatusReceived } from "@/utils/directDebit/index";
 
 export default function DirectDebit() {
 	const { get: getSearchParams } = useSearchParams();
-	const officeId = getSearchParams(queryParamKeys.officeId) ?? "";
+	const officeId = getSearchParams(queryParamKeys.officeId) ?? "1234";
 	const [regexWithLabel, setRegexWithLabel] = useState<RegexWithLabel>(
 		charGroupRegexes[0],
 	);

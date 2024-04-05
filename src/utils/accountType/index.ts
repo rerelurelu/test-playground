@@ -1,4 +1,4 @@
-import { AccountType } from '@/common/types'
+import { AccountType } from '@/types/Schema'
 import { ACCOUNT_TYPE_CODES } from '@/utils/constans'
 
 export const toAccountTypeLabel = (accountType: AccountType) => {

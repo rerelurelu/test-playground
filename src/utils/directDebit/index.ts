@@ -1,8 +1,5 @@
-import {
-  RequestFileStatus,
-  ResultFileStatus,
-  TransferRequestResultCode,
-} from '@/common/types/Schema'
+
+import { RequestFileStatus, ResultFileStatus, TransferRequestResultCode } from '@/types/Schema'
 import { REQUEST_FILE_STATUS, RESULT_FILE_STATUS } from '@/utils/constans'
 
 /**

@@ -1,3 +1,4 @@
+import { ServerMessage } from '@/types/ErrorMessage'
 import {
   Flex,
   FlexProps,
@@ -7,7 +8,6 @@ import {
 } from '@chakra-ui/react'
 import React, { ReactNode } from 'react'
 
-import { ServerMessage } from '@/common/types/ErrorMessage'
 
 type Props = FlexProps & {
   heading?: string

@@ -1,14 +1,5 @@
-import {
-  AccountType,
-  FileFormat,
-  PaymentMethod,
-  RequestFileStatus,
-  ResultFileStatus,
-  SeikyuSakiCode,
-  TransferRequestResultCode,
-  YojitsuOutputStatus,
-  YojitsuStatus,
-} from '@/common/types/Schema'
+import { AccountType, FileFormat, PaymentMethod, RequestFileStatus, ResultFileStatus, SeikyuSakiCode, TransferRequestResultCode, YojitsuOutputStatus, YojitsuStatus } from "@/types/Schema"
+
 
 // 予実画面制御ステータス
 export const NOT_SUBJECT_TO_SEIKYU = '0' // 請求対象外

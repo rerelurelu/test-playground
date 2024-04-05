@@ -1,4 +1,4 @@
-import { DirectDebitResponse, TargetDirectDebit } from '@/common/types'
+import { DirectDebitResponse, TargetDirectDebit } from "@/types/directDebit"
 
 // テーブルスクロール用のデータ作成関数
 const createTargetDirectDebits = (count: number): TargetDirectDebit[] => {

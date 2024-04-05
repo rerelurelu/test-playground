@@ -1,5 +1,5 @@
-import { DirectDebitResponse } from '@/common/types'
 
+import { DirectDebitResponse } from '@/types/directDebit'
 import {
   MOCK_DATA_1,
   MOCK_DATA_2,

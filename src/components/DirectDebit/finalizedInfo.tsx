@@ -1,8 +1,8 @@
+import { DirectDebitResponse } from '@/types/directDebit'
 import { Flex, FlexProps, Text } from '@chakra-ui/react'
 import dayjs from 'dayjs'
 import { FC } from 'react'
 
-import { DirectDebitResponse } from '@/common/types'
 
 type Props = FlexProps & {
   directDebit: DirectDebitResponse
